@@ -1,0 +1,40 @@
+@import url("https://rsms.me/inter/inter.css");
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+:root,
+body,
+html {
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+header,
+html,
+i,
+img,
+label,
+li,
+p,
+small,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
