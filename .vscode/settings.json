@@ -1,6 +1,5 @@
 {
-    "prettier.tabWidth": 2 ,
+    "prettier.tabWidth": 4 ,
     "editor.lineHeight": 1.5,
     "editor.fontWeight": "450"
-
 }
