@@ -49,6 +49,7 @@ const Nav = styled.nav`
       padding: 0 5px;
     }
   }
+
 `;
 
 const Join = styled.a`
@@ -127,6 +128,7 @@ const Hero = styled.div`
     position: absolute;
     bottom: -2px;
     right: -150px;
+    border-radius: 67% 0% 0% 0;
     @media (max-width: 768px) {
       top: 230px;
       width: 580px;
