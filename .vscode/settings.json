@@ -1,16 +1,19 @@
 {
-    "prettier.tabWidth": 4,
-    "editor.lineHeight": 1.6,
-    "editor.fontWeight": "425",
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "keyword.control.module.js",
-                "settings": {
-                    "fontStyle": ""
-                }
-            }
-        ]
-    }
+  "prettier.tabWidth": 2,
+  "editor.lineHeight": 1.4,
+  "editor.fontSize": 24,
+  "editor.fontLigatures": true,
+  // "editor.fontWeight": "400",
+  // "editor.fontWeight": "",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "keyword.control.module.js",
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
 }
