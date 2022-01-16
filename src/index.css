@@ -1,9 +1,12 @@
 @import "./fonts/SFstylesheet.css";
 
+*{
+  font-family: "SF Pro Display";
+}
+
 body {
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: "SF Pro Display";
 }
 
 :root,

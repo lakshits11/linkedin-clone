@@ -226,10 +226,13 @@ const SignOut = styled.div`
   border-radius: 0 0 5px 5px;
   width: 100px;
   height: 40px;
-  font-size: 16px;
+  font-size: 17px;
   transition-duration: 167ms;
   text-align: center;
   display: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000000;
 `;
 
 const User = styled(NavList)`

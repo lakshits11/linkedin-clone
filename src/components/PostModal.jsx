@@ -53,6 +53,7 @@ const PostModal = (props) => {
     props.handleClick(e);
   };
 
+  // console.log(props.user);
   return (
     <>
       {props.showModal === "open" && (
@@ -71,7 +72,7 @@ const PostModal = (props) => {
                 ) : (
                   <img src="/images/user.svg" alt="" />
                 )}
-                <span>Name</span>
+                <span>{props.user.displayName}</span>
               </UserInfo>
               <Editor>
                 <textarea

@@ -52,6 +52,7 @@ export function signOutAPI() {
 }
 
 export function postArticleAPI(payload) {
+  console.log(payload);
   return (dispatch) => {
     dispatch(setLoading(true));
 
@@ -95,6 +96,20 @@ export function postArticleAPI(payload) {
           image: payload.user.photoURL,
         },
         video: payload.video,
+        sharedImg: "",
+        comments: 0,
+        description: payload.description,
+      });
+      dispatch(setLoading(false));
+    } else if (payload.image == "" || payload.video == "") {
+      db.collection("articles").add({
+        actor: {
+          description: payload.user.email,
+          title: payload.user.displayName,
+          date: payload.timestamp,
+          image: payload.user.photoURL,
+        },
+        video: "",
         sharedImg: "",
         comments: 0,
         description: payload.description,

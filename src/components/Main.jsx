@@ -46,7 +46,7 @@ const Main = (props) => {
             <button
               disabled={props.loading ? true : false}
               onClick={handleClick}
-              style={{ paddingLeft: "12px" }}
+              style={{ paddingLeft: "12px", cursor:"text" }}
             >
               Start a Post
             </button>
@@ -76,7 +76,7 @@ const Main = (props) => {
           <p>There are no articles</p>
         ) : (
           <Content>
-            {props.loading && <img src="./images/spin-loader.svg" alt="image" />}
+            {props.loading && <img src="./images/spin-loader.gif" alt="image" />}
             {props.articles.length > 0 &&
               props.articles.map((article, key) => (
                 <Article key={key}>
